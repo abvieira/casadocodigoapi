@@ -24,7 +24,7 @@ import br.com.caelum.casadocodigo.repository.CategoryRepository;
 
 @RestController
 @RequestMapping("/api/admin/categories")
-public class RepositoryController {
+public class CategoryController {
 	
 @Autowired 
 private CategoryRepository categoryRepository;
@@ -71,4 +71,4 @@ public CategoryOutputDto updateCategory(@RequestBody @Valid NewCategoryInputDto 
 }
 
 
-//update (PUT) - atualizará uma categoria a partir dos dados enviados na requisição
+
